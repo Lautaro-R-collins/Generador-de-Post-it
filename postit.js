@@ -38,8 +38,6 @@ function divStyle(text){
     notas.appendChild(div);
 
 
-//remover los postit
-
 div.addEventListener("dblclick", function(){
     div.remove();
 })
